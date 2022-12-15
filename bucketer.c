@@ -25,5 +25,9 @@ void testBucketingByNumberOfCycles() {
 
 int main() {
   testBucketingByNumberOfCycles();
+  int lowCount;
+  for(int i=0;i<lowCount;i++)
+  {
+  }
   return 0;
 }
