@@ -25,9 +25,18 @@ void testBucketingByNumberOfCycles() {
 
 int main() {
   testBucketingByNumberOfCycles();
-  int lowCount;
+  int a[100], lowCount, medium;
   for(int i=0;i<lowCount;i++)
   {
+    printf("Count=%d",lowCount);
+  }
+  for(int i=0;i<mediumCount;i++)
+  {
+    printf("Count=%d",mediumCount);
+  }
+  for(int i=0;i<highCount;i++)
+  {
+    printf("Count=%d",highCount);
   }
   return 0;
 }
