@@ -28,15 +28,15 @@ int main() {
   int a[100], lowCount, mediumCount, highCount;
   for(int i=0;i<lowCount;i++)
   {
-    printf("Count=%d",lowCount);
+    printf("Count=%d",a[i]);
   }
   for(int i=0;i<mediumCount;i++)
   {
-    printf("Count=%d",mediumCount);
+    printf("Count=%d",a[i]);
   }
   for(int i=0;i<highCount;i++)
   {
-    printf("Count=%d",highCount);
+    printf("Count=%d",a[i]);
   }
   return 0;
 }
